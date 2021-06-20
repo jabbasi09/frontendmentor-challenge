@@ -20,6 +20,7 @@ header,
     list-style: none;
 }
 .child-container {
+    position: relative;
     background: tomato;
     padding: 0px;
     width: 80%;
@@ -30,4 +31,8 @@ header,
     font-weight: bold;
     font-size: 3em;
     text-align: center;
+}
+.image-container {
+    position: absolute;
+    right: 0px;
 }
